@@ -39,7 +39,7 @@ function extraNavFuncs() {
         $(t.target).closest(".dropdown-toggle").length || $(".navbar-collapse").collapse("hide")
     }), $("a.dropdown-toggle").click(function(t) {
         $(this).parent().addClass("target-open-menu"), $(this).closest(".dropdown-menu").find(".dropdown.open").each(function(t) {
-            $(this).hasClass("target-open-menu") || $(this).removeClass("open")
+            $(this).hasClass("target-open-menu") || $(this).removeClass("open") 
         }), $(".target-open-menu").removeClass("target-open-menu")
     })
 }

@@ -98,6 +98,7 @@ a:hover {
 
 .l-bloc {
     color: rgba(0, 0, 0, .5);
+    font-size: 16px;
 }
 
 .l-bloc button:hover {
@@ -191,6 +192,9 @@ a:hover {
     background-color: rgba(0, 0, 0, .5);
     width: 26px;
 }
+input{
+    border: black solid 2px;
+}
 
 @media (min-width: 768px) {
     .site-navigation {
@@ -251,8 +255,8 @@ button {
 }
 
 .form-control {
-    border-color: rgba(0, 0, 0, .1);
-    box-shadow: none;
+    border:black 1px solid;
+    width: 100%;
 }
 
 .scrollToTop {
@@ -440,8 +444,6 @@ h1 {
 .bg-banniere {
     background-image: url("./img/la-chouette-agence-banniere.png");
 }
-
-
 .bg-presentation {
     background-image: url("img/image-de-presentation.png");
 }
@@ -489,6 +491,12 @@ h1 {
 }
 
 @media (max-width: 767px) {
+    .bg-banniere {
+        background-image: url("./img/la-chouette-agence-banniere770w.png");
+    }
+    .bg-presentation {
+        background-image: url("img/image-de-presentation770w.png");
+    }
     .page-container {
         overflow-x: hidden;
         position: relative;
@@ -563,6 +571,12 @@ h1 {
 }
 
 @media (max-width: 400px) {
+    .bg-banniere {
+        background-image: url("./img/la-chouette-agence-banniere410w.png");
+    }
+    .bg-presentation {
+        background-image: url("img/image-de-presentation410w.png");
+    }
     .bloc {
         padding-left: 0;
         padding-right: 0;
